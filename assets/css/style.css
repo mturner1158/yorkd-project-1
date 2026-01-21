@@ -7,6 +7,7 @@
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Lora", serif;
     --primary-colour: #234F1E; /* pine */
+    --primary-colour-transparent: rgba(35,79,30,0.4);
     --secondary-colour: #699E63; /* light pine */
     --primary-background-colour: #F1E9D2; /* parchment */ 
     --highlight: #967B5D; /* coca pecan */
@@ -48,13 +49,28 @@ body {
 
 /* home main styles*/
 
-#index-main {
+#home-page-content {
     background: url(../images/social-gathering-backgorund.jpg) no-repeat center center/cover;
-    height: 575px;
+    height: 400px;
     width: 100%;
     position: relative;
 }
 
+#cover-text {
+    background-color: var(--primary-colour-transparent);
+    position: absolute;
+    color: var(--primary-background-colour);
+    bottom: 30px;
+    left: 20px;
+    width: 75%;
+    min-height: 15px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+#cover-text h2 {
+    font-family: var(--secondary-font);
+}
 /* footer */
 
 #footer {
