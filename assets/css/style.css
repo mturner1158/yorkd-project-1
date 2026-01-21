@@ -1,0 +1,13 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+/* css variables */
+
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Lora", serif;
+    --primary-colour: #234F1E; /* pine */
+    --secondary-colour: #699E63; /* light pine */
+    --primary-background-colour: #F1E9D2; /* parchment */ 
+    --highlight: #967B5D; /* coca pecan */
+}
