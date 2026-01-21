@@ -72,3 +72,4 @@ Users of the site can expect:
 ## Code Used From External Sauces
 
 ## Credits
+Favicon credits: Delicious icons created by Hilmy Abiyyu A. - Flaticon
