@@ -11,3 +11,12 @@
     --primary-background-colour: #F1E9D2; /* parchment */ 
     --highlight: #967B5D; /* coca pecan */
 }
+
+/* global styles */
+
+body {
+    font-family: var(--primary-font);
+}
+
+/* navbar styles */
+
