@@ -47,6 +47,7 @@ body {
     justify-content: center;
 }
 
+
 /* home main styles*/
 
 #home-page-content {
@@ -61,8 +62,8 @@ body {
     position: absolute;
     color: var(--primary-background-colour);
     bottom: 30px;
-    left: 20px;
-    width: 75%;
+    left: 25px;
+    width: 85%;
     min-height: 15px;
     padding-top: 20px;
     padding-left: 10px;
@@ -76,4 +77,9 @@ body {
 #footer {
     background-color: var(--primary-colour);
     color: var(--primary-background-colour);
+    padding-top: 10px;
+}
+
+#footer #footer-name {
+    font-family: var(--secondary-font);
 }
