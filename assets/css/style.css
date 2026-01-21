@@ -20,6 +20,10 @@ body {
     background-color: var(--primary-background-colour);
 }
 
+h1, h2 ,h3 {
+    font-family: var(--secondary-font);
+}
+
 /* navbar styles */
 
 #navbar {
@@ -69,9 +73,15 @@ body {
     padding-left: 10px;
 }
 
-#cover-text h2 {
-    font-family: var(--secondary-font);
+.section {
+    padding: 10px;
 }
+
+.section h2 {
+    text-align: center;
+}
+
+
 /* footer */
 
 #footer {
