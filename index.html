@@ -20,15 +20,17 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<!-- classes on body set to work with mt-auto on footer to ensure it always tays at the bottom of the page - taken from boardwalk-games code -->
+
+<body class="d-flex flex-column min-vh-100">
 
     <!-- navigation -->
     <!-- started with bootstrap navbar then modified to match wireframes-->
     <nav>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav id="navbar" class="navbar navbar-expand-lg">
+            <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/images/logo.png" alt="York'd logo">
+                    <img src="assets/images/logo.png" id="logo" alt="York'd logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -36,45 +38,40 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item nav-btn">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                        <li class="nav-item nav-btn">
+                            <a class="nav-link" href="restaurants.html">Restaurants</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
+                        <li class="nav-item nav-btn">
+                            <a class="nav-link" href="bars.html">Bars</a>
+                        </li>                       
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+                    <div class="nav-item nav-btn ms-auto">
+                        <a class="nav-link" href="signup.html">Sign Up <i class="fa-solid fa-user"></i></a>
+                    </div>  
                 </div>
             </div>
         </nav>
     </nav>
 
-    <header>palceholder</header>
-    <main>placeholder</main>
+    <main id="index-main">placeholder</main>
 
     <!-- footer -->
-    <footer>placeholder</footer>
+    <footer id="footer" class="mt-auto">
+        <div class="container">
+            <div class="row">
+                <div id="footer-name" class="col text-start d-flex align-items-center">
+                    <p>York'd</p>
+                </div>
+                <div id="socials" class="col text-end">
+                    <p><i class="fa-brands fa-square-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-tiktok"></i> </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
