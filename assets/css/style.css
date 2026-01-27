@@ -117,8 +117,16 @@ h1, h2 ,h3 {
     position: relative;
 }
 
+/* .card-sizing {
+    padding-bottom: 10px;
+} */
+
 .card-background {
-    max-width: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
 }
 
 /* card flipping code taken from W3Schools, also credited in the credit then modifified to fit my theme and purpose */
@@ -127,9 +135,9 @@ h1, h2 ,h3 {
 .flip-card {
   background-color: transparent;
   width: 100%;
-  height: 250px;
-  border: 1px solid #f1f1f1;
+  height: 400px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 1rem;
 }
 
 /* This container is needed to position the front and back side */
