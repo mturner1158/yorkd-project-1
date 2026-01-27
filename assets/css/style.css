@@ -57,7 +57,7 @@ h1, h2 ,h3 {
 
 #home-page-content {
     background: url(../images/social-gathering-backgorund.jpg) no-repeat center center/cover;
-    height: 400px;
+    min-height: 600px;
     width: 100%;
     position: relative;
 }
@@ -137,5 +137,11 @@ h1, h2 ,h3 {
 }
 
 /* media queries for large tablets (992px or up) */
+@media screen and (min-width: 992px) {
+    /* size of header picture */
+    #home-page-content {
+        max-width: 1320px;
+    }
+}
 
 /* media queries for laptops (1200px or up) */
