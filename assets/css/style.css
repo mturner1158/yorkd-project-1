@@ -25,6 +25,18 @@ h1, h2 ,h3 {
     font-family: var(--secondary-font);
 }
 
+.btn-style {
+    border: 2px solid var(--primary-background-colour);
+    background-color: var(--primary-background-colour);
+    color: var(--primary-colour);
+}
+
+.btn-style:hover {
+    border: 2px solid var(--primary-colour);
+    background-color: var(--primary-colour);
+    color: var(--primary-background-colour);
+}
+
 /* navbar styles */
 
 #navbar {
@@ -55,7 +67,7 @@ h1, h2 ,h3 {
 
 /* home main styles*/
 
-#home-page-content {
+#home-page-header {
     background: url(../images/social-gathering-backgorund.jpg) no-repeat center center/cover;
     min-height: 600px;
     width: 100%;
@@ -96,16 +108,65 @@ h1, h2 ,h3 {
     font-family: var(--secondary-font);
 }
 
-.btn-style {
-    border: 2px solid var(--primary-background-colour);
-    background-color: var(--primary-background-colour);
-    color: var(--primary-colour);
+/* restaurant styles */
+
+#restaurant-page-header {
+    background: url(../images/social-gathering-backgorund.jpg) no-repeat center center/cover;
+    min-height: 600px;
+    width: 100%;
+    position: relative;
 }
 
-.btn-style:hover {
-    border: 2px solid var(--primary-colour);
-    background-color: var(--primary-colour);
-    color: var(--primary-background-colour);
+.card-background {
+    max-width: 100%;
+}
+
+/* card flipping code taken from W3Schools, also credited in the credit then modifified to fit my theme and purpose */
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 250px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: var(--primary-colour);
+  color: var(--primary-background-colour);
+  transform: rotateY(180deg);
 }
 
 /* footer */
@@ -151,3 +212,10 @@ h1, h2 ,h3 {
 }
 
 /* media queries for laptops (1200px or up) */
+
+/* TO BE DELETED - BOOTSTRAP GRID STYLING */
+
+.text-box {
+    background-color: grey;
+    border: black solid 2px;
+}
