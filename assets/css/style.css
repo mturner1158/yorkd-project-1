@@ -121,13 +121,23 @@ h1, h2 ,h3 {
     padding-bottom: 10px;
 } */
 
-.card-background {
-  width: 100%;
+.card-background-1 {
+  background: url(../images/placeholder-background.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   display: block;
 }
+
+.card-background-2 {
+  background: url(../images/placeholder-background-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+
 
 /* card flipping code taken from W3Schools, also credited in the credit then modifified to fit my theme and purpose */
 
