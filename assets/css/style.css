@@ -79,13 +79,34 @@ h1, h2 ,h3 {
 }
 
 .section {
-    padding: 10px;
+    padding: 2rem;
 }
 
 #introduction h2 {
     text-align: center;
 }
 
+#whats-hot {
+    background-color: var(--highlight);
+    color: var(--primary-background-colour);
+    text-align: center;
+}
+
+#whats-hot h5 {
+    font-family: var(--secondary-font);
+}
+
+.btn-style {
+    border: 2px solid var(--primary-background-colour);
+    background-color: var(--primary-background-colour);
+    color: var(--primary-colour);
+}
+
+.btn-style:hover {
+    border: 2px solid var(--primary-colour);
+    background-color: var(--primary-colour);
+    color: var(--primary-background-colour);
+}
 
 /* footer */
 
