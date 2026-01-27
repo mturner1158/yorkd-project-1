@@ -191,7 +191,8 @@ Common features across all sites include the navigation bar and the footer.
 ## Deployment
 
 ## Code Used From External Sauces
-For the cards on the restaurant and bar pages, I used code from W3Schools which can be found [here](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+For the cards on the restaurant and bar pages, I used code from W3Schools which can be found [here](https://www.w3schools.com/howto/howto_css_flip_card.asp) to cause the responsive flipping. 
+
 ## Credits
 Favicon credits: Delicious icons created by Hilmy Abiyyu A. - Flaticon
 
