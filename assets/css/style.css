@@ -234,6 +234,6 @@ h1, h2 ,h3 {
 /* TO BE DELETED - BOOTSTRAP GRID STYLING */
 
 .text-box {
-    background-color: grey;
-    border: black solid 2px;
+    background-color: black;
+    border: pink 2px;
 }
