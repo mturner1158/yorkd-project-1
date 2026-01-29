@@ -64,31 +64,48 @@
             <h1>Let us know your opinion!</h1>
             <p>Create an account to save your favourite spots, write reviews, and join the York’s community. Restaurant and bar owners can also sign up to add their establishment, manage details, and connect directly with customers.</p>
         </section>
-        <section class="section">
+        <section id="signup" class="section col-md-8 container">
+            <div class="row justify-content-center">
+                <h2>Sign Up Now!</h2>
             <form action="" method="GET">
                 <div class="row">
-                    <div class="col-12 col-md-6 text-box">
-                        <p>test</p>
+                    <div class="col-12 col-md-6">
+                        <label for="fname">First Name:</label>
+                        <input type="text" name="fname" id="fname">
                     </div>
-                    <div class="col-12 col-md-6  text-box">
-                        <p>test</p>
-                    </div><div class="col-12 col-md-6  text-box">
-                        <p>test</p>
-                    </div><div class="col-12 col-md-6  text-box">
-                        <p>test</p>
-                    </div><div class="col-12 col-md-6  text-box">
-                        <p>test</p>
-                    </div><div class="col-12 col-md-6  text-box">
-                        <p>test</p>
+                    <div class="col-12 col-md-6">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname">
                     </div>
-                    <div class="col-12  text-box">
-                        <p>test</p>
+                    <div class="col-12 col-md-6">
+                        <label for="phone-number">Phone Number:</label>
+                        <input type="number" name="phone-number" id="phone-number">
                     </div>
-                    <div class="col-12  text-box">
-                        <p>test</p>
+                    <div class="col-12 col-md-6">
+                        <label for="email">Email Address:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="uname">Username Name:</label>
+                        <input type="text" name="uname" id="uname">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <label for="pword">Password:</label>
+                        <input type="password" name="pword" id="pword">
+                    </div>
+                    <div class="col-12">
+                        <input type="radio" id="reviewer" name="user-type" value="reviewer">
+                        <label for="reviewer">I want to review my favourite places</label><br>
+                        <input type="radio" id="owner" name="user-type" value="owner">
+                        <label for="owner">I want to put my establishment for review</label><br>
+                    </div>
+                    <div class="col-12">
+                        <label for="reasoning">Why do you want to join?</label>
+                        <input type="textarea" name="reasoning" id="reasoning">
                     </div>
                 </div>
             </form>
+        </div>
         </section>
     </main>
 
