@@ -21,6 +21,10 @@ body {
     color: var(--primary-colour);
 }
 
+main {
+    padding-top: 40px;
+}
+
 h1, h2 ,h3 {
     font-family: var(--secondary-font);
 }
@@ -91,7 +95,7 @@ h1, h2 ,h3 {
 }
 
 .section {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #introduction h2 {
@@ -190,7 +194,20 @@ h1, h2 ,h3 {
 /* sign up styles */
 
 #signup form > div {
-    padding: 2px;
+    padding: 5px;
+}
+
+#signup-form .form-text {
+    margin: 5px;
+    width: 50%;
+    color: var(--primary-colour);
+    font-family: var(--primary-font);
+    padding-top: 3px;
+    font-size: medium;
+}
+
+#signup-form .form-box {
+    width: 100%;
 }
 
 /* footer */
@@ -232,6 +249,11 @@ h1, h2 ,h3 {
     /* size of header picture */
     #home-page-content {
         max-width: 1320px;
+    }
+
+    /* sign up radio stacking */
+    #signup-radio {
+        text-align: center;
     }
 }
 
