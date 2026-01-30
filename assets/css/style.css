@@ -41,6 +41,11 @@ h1, h2 ,h3 {
     color: var(--primary-background-colour);
 }
 
+.header-image {
+    width: 100%;
+    min-height: 400px;
+}
+
 /* navbar styles */
 
 #navbar {
@@ -121,12 +126,35 @@ h1, h2 ,h3 {
     position: relative;
 }
 
-/* .card-sizing {
-    padding-bottom: 10px;
-} */
+.top-text {
+    padding-top: 1rem;
+}
+
+#card-cover-text {
+    background-color: var(--primary-colour-transparent);
+    position: absolute; 
+    color: var(--primary-background-colour);
+    text-align: left;
+    left: 10px;
+    bottom: 10px;
+    width: 60%;
+    min-height: 15px;
+    padding: 5px;
+}
+
+.category {
+    background-color: var(--highlight);
+    color: var(--primary-background-colour);
+    font-family: var(--secondary-font);
+    border: var(--highlight) solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 140px;
+    margin: 5px;
+}
 
 .card-background-1 {
-  background: url(../images/placeholder-background.png);
+  background: url(../images/khao-san-road-cover-image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,14 +270,33 @@ h1, h2 ,h3 {
         width: 350px;
         left:40px;
     }
+
+    /* card cover text positioning */
+    #card-cover-text {
+    left: 15px;
+    bottom: 10px;
+    width: 70%;
+    min-height: 15px;
+    padding: 10px;
+    }
 }
 
 /* media queries for large tablets (992px or up) */
 @media screen and (min-width: 992px) {
-    /* size of header picture */
-    #home-page-content {
-        max-width: 1320px;
+    /* card size for bar and restaurants page */
+    .flip-card {
+        height: 250px;
     }
+
+    /* card cover text positioning */
+    #card-cover-text {
+    left: 15px;
+    bottom: 10px;
+    width: 90%;
+    min-height: 15px;
+    padding: 10px;
+    }
+
 
     /* sign up radio stacking */
     #signup-radio {
