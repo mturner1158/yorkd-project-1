@@ -153,6 +153,15 @@ h1, h2 ,h3 {
     margin: 5px;
 }
 
+.card-button a {
+    color: var(--primary-colour);
+    text-decoration: none;
+}
+
+.diet-info {
+    
+}
+
 .card-background-1 {
   background: url(../images/khao-san-road-cover-image.jpg);
   background-size: cover;
@@ -217,6 +226,7 @@ h1, h2 ,h3 {
   background-color: var(--primary-colour);
   color: var(--primary-background-colour);
   transform: rotateY(180deg);
+  padding: 10px;
 }
 
 /* sign up styles */
