@@ -44,6 +44,7 @@ h1, h2 ,h3 {
 .header-image {
     width: 100%;
     min-height: 400px;
+    object-fit: cover;
 }
 
 /* navbar styles */
@@ -120,7 +121,7 @@ h1, h2 ,h3 {
 /* restaurant styles */
 
 #restaurant-page-header {
-    background: url(../images/social-gathering-backgorund.jpg) no-repeat center center/cover;
+    background: url(../images/york-restaurants-cover-photo.webp) no-repeat center center/cover;
     min-height: 600px;
     width: 100%;
     position: relative;
@@ -158,10 +159,6 @@ h1, h2 ,h3 {
     text-decoration: none;
 }
 
-.diet-info {
-    
-}
-
 .card-background-1 {
   background: url(../images/khao-san-road-cover-image.jpg);
   background-size: cover;
@@ -171,7 +168,23 @@ h1, h2 ,h3 {
 }
 
 .card-background-2 {
-  background: url(../images/placeholder-background-2.jpg);
+  background: url(../images/cut-and-craft-cover-photo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.card-background-3 {
+  background: url(../images/partisan-cover-photo.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.card-background-4 {
+  background: url(../images/everest-ghurka-cover-photo.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
