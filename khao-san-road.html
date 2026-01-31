@@ -62,19 +62,57 @@
         <!-- information on your selected restaurant -->
         <section class="container">
             <div class="row">
-                <div class="col-12 text-box">
+                <!-- title div -->
+                <div class="col-12">
                     <h1>Khao San Road</h1>
                 </div>
-                <div class="col-12 text-box">
+                <!-- div of all categories tracked -->
+                <div class="col-12">
                     <p>categories</p>
                 </div>
-                <div class="col-12 col-md-6 text-box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus doloribus voluptatibus necessitatibus nulla facilis laudantium enim assumenda modi. Reiciendis molestias cupiditate consectetur iure quasi? Laboriosam totam iste qui optio.</p>
+                <!-- div for carousel starting with a bootstrap version which is then modified -->
+                <div class="col-12 col-md-6">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/images/placeholder-background.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/placeholder-background.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/images/placeholder-background.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
-                <div class="col-12 col-md-6 text-box">
-                    <p>carousel</p>
+                <!-- div for the restaurant description and map nested at larger screens -->
+                <div class="col-12 col-md-6 container">
+                    <div class="row">
+                        <!-- description -->
+                        <div class="col-12">
+                            <p>Khao San Road brings the vibrant flavours of Thailand to the heart of York with a menu inspired by authentic street food. Known for its bold spices and fresh ingredients, it offers a range of curries, stir‑fries and small plates ideal for sharing. The relaxed atmosphere and modern décor make it popular for both casual dining and group meal</p>
+                        </div>
+                        <!-- map -->
+                        <div class="col-12">
+                            <!-- from google maps embed link -->
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.5774987214604!2d-1.078589022706298!3d53.957011872472755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931ae37b33571%3A0xe91ae018b17ee954!2sKhaosan%20Road%20Thai%20Tapas!5e0!3m2!1sen!2suk!4v1769863887613!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 text-box">
+                
+                <!-- div containing comments from uesrs -->
+                <div class="col-12">
                     <p>comments</p>
                 </div>
             </div>
