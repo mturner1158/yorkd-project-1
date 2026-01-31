@@ -41,6 +41,12 @@ h1, h2 ,h3 {
     color: var(--primary-background-colour);
 }
 
+.modal-btn-style {
+    border: 2px solid var(--highlight);
+    background-color: var(--highlight);
+    color: var(--primary-background-colour);
+}
+
 .header-image {
     width: 100%;
     min-height: 400px;
@@ -307,11 +313,13 @@ h1, h2 ,h3 {
 .comments-even {
     text-align: right;
     font-style: italic;
+    border-bottom: 1px solid var(--highlight);
 }
 
 .comments-odd {
     text-align: left;
     font-style: italic;
+    border-bottom: 1px solid var(--highlight);
 }
 
 .user {

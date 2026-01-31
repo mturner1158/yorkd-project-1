@@ -72,18 +72,18 @@
                     <div class="col-4 col-md-3 col-lg-2">
                         <p class="category-drillthrough">
                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
                         </p>
                     </div>
                     <!-- price -->
                     <div class="col-4 col-md-3 col-lg-2">
                         <p class="category-drillthrough">
                             <i class="fa-solid fa-sterling-sign"></i>
-                                            <i class="fa-solid fa-sterling-sign"></i>
-                                            <i class="fa-solid fa-sterling-sign"></i>
+                            <i class="fa-solid fa-sterling-sign"></i>
+                            <i class="fa-solid fa-sterling-sign"></i>
                         </p>
                     </div>
                     <!-- vibe -->
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <!-- div for carousel starting with a bootstrap version which is then modified -->
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 d-flex align-items-center">
                     <div id="ksr-carousel" class="carousel slide">
                         <div class="carousel-inner">
                             <div class="carousel-item carousel-edits active">
@@ -134,31 +134,70 @@
                     <div class="row">
                         <!-- description -->
                         <div class="col-12">
-                            <p>Khao San Road brings the vibrant flavours of Thailand to the heart of York with a menu inspired by authentic street food. Known for its bold spices and fresh ingredients, it offers a range of curries, stir‑fries and small plates ideal for sharing. The relaxed atmosphere and modern décor make it popular for both casual dining and group meal</p>
+                            <p>Khao San Road brings the vibrant flavours of Thailand to the heart of York with a menu
+                                inspired by authentic street food. Known for its bold spices and fresh ingredients, it
+                                offers a range of curries, stir‑fries and small plates ideal for sharing. The relaxed
+                                atmosphere and modern décor make it popular for both casual dining and group meal</p>
                         </div>
                         <!-- map -->
                         <div class="col-12">
                             <!-- from google maps embed link -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.5774987214604!2d-1.078589022706298!3d53.957011872472755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931ae37b33571%3A0xe91ae018b17ee954!2sKhaosan%20Road%20Thai%20Tapas!5e0!3m2!1sen!2suk!4v1769863887613!5m2!1sen!2suk" style="border:0;" width="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.5774987214604!2d-1.078589022706298!3d53.957011872472755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487931ae37b33571%3A0xe91ae018b17ee954!2sKhaosan%20Road%20Thai%20Tapas!5e0!3m2!1sen!2suk!4v1769863887613!5m2!1sen!2suk"
+                                style="border:0;" width="100%" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- div containing comments from uesrs -->
                 <div class="col-12">
                     <h3>Hear from the York'd community!</h3>
                     <p class="comments-even">
-                        Absolutely outstanding food – everything we tried was full of flavour and clearly freshly made. The staff were friendly and knowledgeable, and the atmosphere felt lively without being overwhelming. Easily one of the best meals we’ve had in York. - <span class="user">User 1</span>
+                        Absolutely outstanding food – everything we tried was full of flavour and clearly freshly made.
+                        The staff were friendly and knowledgeable, and the atmosphere felt lively without being
+                        overwhelming. Easily one of the best meals we’ve had in York. - <span class="user">User 1</span>
                     </p>
                     <p class="comments-odd">
-                        Incredible Thai street food with generous portions and bold flavours. Service was quick, even on a busy evening, and the menu had plenty of choice. Would happily come back again and again. - <span class="user">User 2</span>
+                        Incredible Thai street food with generous portions and bold flavours. Service was quick, even on
+                        a busy evening, and the menu had plenty of choice. Would happily come back again and again. -
+                        <span class="user">User 2</span>
                     </p>
-                     <p class="comments-even">
-                        A must‑visit if you love Thai food. Every dish was perfectly balanced, and the cocktails were just as impressive. Great value for money and consistently excellent quality. - <span class="user">User 3</span>
+                    <p class="comments-even">
+                        A must‑visit if you love Thai food. Every dish was perfectly balanced, and the cocktails were
+                        just as impressive. Great value for money and consistently excellent quality. - <span
+                            class="user">User 3</span>
                     </p>
                     <p class="comments-odd">
-                        From start to finish, faultless. The food, service and vibe all work together brilliantly. One of those places you recommend to everyone visiting York. - <span class="user">User 4</span>
+                        From start to finish, faultless. The food, service and vibe all work together brilliantly. One
+                        of those places you recommend to everyone visiting York. - <span class="user">User 4</span>
                     </p>
+                    <!-- bootstrap modal to allow users to add their own reviews-->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn modal-btn-style" data-bs-toggle="modal"
+                        data-bs-target="#ksr-review">
+                        Launch static backdrop modal
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="ksr-review" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="ksr-review-label">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    ...
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-style">Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
