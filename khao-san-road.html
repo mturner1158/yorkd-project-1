@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="York’d lets you rate and review bars and restaurants in York. Discover the best places to eat and drink, or share your experience with others.">
+    <title>York'd | Khao San Road</title>
+
+    <!-- favicon designed by  -->
+    <link rel="icon" href="assets/images/favicon.png">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<!-- classes on body set to work with mt-auto on footer to ensure it always tays at the bottom of the page - taken from boardwalk-games code -->
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- navigation -->
+    <!-- started with bootstrap navbar then modified to match wireframes-->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/logo.png" id="logo" alt="York'd logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
+                    <li class="nav-item nav-btn">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item nav-btn">
+                        <a class="nav-link" href="restaurants.html">Restaurants</a>
+                    </li>
+                    <li class="nav-item nav-btn">
+                        <a class="nav-link" href="bars.html">Bars</a>
+                    </li>
+                </ul>
+                <div class="nav-item nav-btn ms-auto">
+                    <a class="nav-link" href="signup.html">Sign Up <i class="fa-solid fa-user"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- back button to select more restaurants -->
+        <section class="back container">
+            <p><a href="restaurants.html"><i class="fa-solid fa-angle-left"></i> Back to restaurants</a></p>
+        </section>
+        <!-- information on your selected restaurant -->
+        <section class="container">
+            <div class="row">
+                <div class="col-12 text-box">
+                    <h1>Khao San Road</h1>
+                </div>
+                <div class="col-12 text-box">
+                    <p>categories</p>
+                </div>
+                <div class="col-12 col-md-6 text-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto minus doloribus voluptatibus necessitatibus nulla facilis laudantium enim assumenda modi. Reiciendis molestias cupiditate consectetur iure quasi? Laboriosam totam iste qui optio.</p>
+                </div>
+                <div class="col-12 col-md-6 text-box">
+                    <p>carousel</p>
+                </div>
+                <div class="col-12 text-box">
+                    <p>comments</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer" class="mt-auto">
+        <div class="container">
+            <div class="row">
+                <!-- name of the site -->
+                <div id="footer-name" class="col text-start d-flex align-items-center">
+                    <p>York'd</p>
+                </div>
+                <!-- link to social media sites -->
+                <div id="socials" class="col text-end">
+                    <p>
+                        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https:twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- scripts -->
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/3312e5dbfd.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

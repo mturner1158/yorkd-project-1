@@ -79,7 +79,7 @@ h1, h2 ,h3 {
 
 #home-page-header {
     background: url(../images/social-gathering-backgorund.jpg) no-repeat center center/cover;
-    height: 100vh;
+    height: 93vh;
     width: 100%;
     position: relative;
 }
@@ -272,6 +272,16 @@ h1, h2 ,h3 {
     width: 100%;
 }
 
+/* restuarant specific pages styling */
+.back {
+    padding-top: 23px;
+}
+
+.back a {
+    color: var(--primary-colour);
+    text-decoration: none;
+}
+
 /* footer */
 
 #footer {
@@ -382,5 +392,5 @@ h1, h2 ,h3 {
 
 .text-box {
     background-color: black;
-    border: pink 2px;
+    border: pink 2px solid;
 }
