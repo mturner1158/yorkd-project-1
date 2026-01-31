@@ -187,6 +187,7 @@ Common features across all sites include the navigation bar and the footer.
 ## Bugs
 
 1. flipping cards on restaurant and bar tab kept overlapping on small screens - fixed by changing the height to an absolute px value using developer tools testing until the correct height was found
+2. Card content spilling over container - resized using media queries and dev tools until correct sizing was identified and implemented
 
 ## Deployment
 
