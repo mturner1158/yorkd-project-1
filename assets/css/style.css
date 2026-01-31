@@ -298,6 +298,27 @@ h1, h2 ,h3 {
     padding-bottom: 5px;
 }
 
+.carousel-edits {
+    max-height: 230px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.comments-even {
+    text-align: right;
+    font-style: italic;
+}
+
+.comments-odd {
+    text-align: left;
+    font-style: italic;
+}
+
+.user {
+    font-style: normal;
+    font-weight: bold;
+}
+
 /* footer */
 
 #footer {
