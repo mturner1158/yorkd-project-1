@@ -282,6 +282,22 @@ h1, h2 ,h3 {
     text-decoration: none;
 }
 
+.category-drillthrough {
+    background-color: var(--highlight);
+    color: var(--primary-background-colour);
+    font-family: var(--secondary-font);
+    border: var(--highlight) solid 2px;
+    border-radius: 10px;
+    text-align: center;
+    width: 110px;
+    margin: 3px auto;
+    font-size: 13px;
+}
+
+.review-styles div {
+    padding-bottom: 5px;
+}
+
 /* footer */
 
 #footer {
