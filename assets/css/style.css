@@ -368,6 +368,11 @@ h1, h2 ,h3 {
     min-height: 15px;
     padding: 10px;
     }
+
+    /* carousel heights */
+    .carousel-edits {
+    max-height: 260px;
+}
 }
 
 /* media queries for large tablets (992px or up) */
