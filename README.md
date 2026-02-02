@@ -226,7 +226,7 @@ The restaurant page shows users four different restaurants to choose from with k
 * Upon hovering on a card (or clicking if in dev tools or on a touch screen device), the card will rotate to display further information
 * A link to a drill through for the restaurant for users that want more information
 
-This page satisfies User 2 of the User Stories. 
+This page satisfies User 1 of the User Stories. 
 
 <img src="assets/images/readme-restaurants.png">
 
@@ -241,15 +241,29 @@ The restaurant specific page shows users more information for the restaurant the
 * A set of reviews that have been submitted from users 
 * A model which allows a user to submit a review
 
+This satisfies User 1 and User 3 in the User Stories.
+
 <img src="assets/images/readme-restaurant-drillthrough.png">
 
 ### Bars 
 
+<img src="assets/images/readme-bars.png">
+
 #### Bar Specific Pages
+
+<img src="assets/images/readme-bars-drillthrough.png">
 
 ### Sign Up
 
+<img src="assets/images/readme-signup.png">
+
 ## Testing
+
+* user story testing 
+* validators 
+* accessibility
+* browser specific testing 
+* dev tools testing 
 
 ## Bugs
 The following bugs occured during the design of this site. 
