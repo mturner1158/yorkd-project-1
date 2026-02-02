@@ -145,6 +145,32 @@ The site will have an easy to follow structure with a standardised navigation ba
 * A sign-up page for new users to register
 
 ### Wireframes
+Below are the wireframes for each page created in this website. 
+
+#### Home
+
+<img src="assets/wireframes/home.PNG">
+
+#### Restaurants
+
+<img src="assets/wireframes/restaurants.PNG">
+
+#### Specific Restaunts
+
+<img src="assets/wireframes/specific-restaurant.PNG">
+
+#### Bars
+
+<img src="assets/wireframes/bars.PNG">
+
+#### Specific Bars
+
+<img src="assets/wireframes/specific-bars.PNG">
+
+#### Sign Up
+
+<img src="assets/wireframes/signup.PNG">
+
 
 <a id="frameworks"></a>
 
