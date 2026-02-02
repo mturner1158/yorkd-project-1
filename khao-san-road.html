@@ -174,9 +174,9 @@
                     </p>
                     <!-- bootstrap modal to allow users to add their own reviews-->
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn modal-btn-style" data-bs-toggle="modal"
+                    <button type="button" class="btn modal-btn-style justify-content-center" data-bs-toggle="modal"
                         data-bs-target="#ksr-review">
-                        Launch static backdrop modal
+                        Share your review!
                     </button>
 
                     <!-- Modal -->
@@ -185,15 +185,46 @@
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="ksr-review-label">Modal title</h1>
+                                    <h1 class="modal-title fs-5" id="ksr-review-label">Share your review!</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    ...
+                                    <form action="success.html" id="add-review">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <label for="uname" class="form-text">Username:</label>
+                                                <input type="text" name="uname" id="uname" class="form-box">
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="review-choice" class="form-text">What establishment are you reviewing?</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">Restaurant</option>
+                                                    <option value="2">Bar</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label for="review-rating" class="form-text">Rating:</label>
+                                                <select class="form-select" aria-label="Default select example">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">1</option>
+                                                    <option value="2">2</option>
+                                                    <option value="3">3</option>
+                                                    <option value="4">4</option>
+                                                    <option value="5">5</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12">
+                                                <label for="review-text" class="form-text">Tell us what you think!</label> <br>
+                                                <textarea name="reasoning" id="reasoning" class="form-box"
+                                                    rows="10" cols="50"></textarea>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-style">Understood</button>
+                                    <button type="button" class="btn btn-style">Submit</button>
                                 </div>
                             </div>
                         </div>
@@ -211,6 +242,7 @@
                 <div id="footer-name" class="col text-start d-flex align-items-center">
                     <p>York'd</p>
                 </div>
+
                 <!-- link to social media sites -->
                 <div id="socials" class="col text-end">
                     <p>
