@@ -231,6 +231,17 @@ This page satisfies User 2 of the User Stories.
 <img src="assets/images/readme-restaurants.png">
 
 #### Restaurant Specific Pages
+The restaurant specific page shows users more information for the restaurant they selected from the previous page. This has a lot of detail including futher ratings, location, pitcures and reviews. 
+
+* A link to the previous restaurants page so users can return to the full restaurant list 
+* 6 categories that are consistent across all website pages
+* A carousel of images from the restaurant 
+* A description of the restaurant
+* A map so users can find the restaurant 
+* A set of reviews that have been submitted from users 
+* A model which allows a user to submit a review
+
+<img src="assets/images/readme-restaurant-drillthrough.png">
 
 ### Bars 
 
