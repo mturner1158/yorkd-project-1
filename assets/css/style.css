@@ -84,7 +84,7 @@ h1, h2 ,h3 {
 /* home main styles*/
 
 #home-page-header {
-    background: url(../images/social-gathering-backgorund.jpg) no-repeat center center/cover;
+    background: url(../images/home-cover-photo.jpg) no-repeat center center/cover;
     height: 93vh;
     width: 100%;
     position: relative;
