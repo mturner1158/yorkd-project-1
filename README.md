@@ -252,10 +252,13 @@ The restaurant specific page shows users more information for the restaurant the
 ## Testing
 
 ## Bugs
+The following bugs occured during the design of this site. 
 
-1. flipping cards on restaurant and bar tab kept overlapping on small screens - fixed by changing the height to an absolute px value using developer tools testing until the correct height was found
-2. Card content spilling over container - resized using media queries and dev tools until correct sizing was identified and implemented
-3. Sotanos page not loading style - mistyped filename not rendering as a html file but a markdown file instead
+|ID|Bug|Fix   |
+|:-----|:-------|:-------------|
+|#1|Flipping cards on restaurant and bar tab kept overlapping on small screens |Fixed by changing the height to an absolute px value using developer tools testing until the correct height was found|
+|#2|Card content spilling over container |Resized using media queries and dev tools until correct sizing was identified and implemented|
+|#3|Sotanos page not loading style |Mistyped filename not rendering as a html file but a markdown file instead|
 
 ## Deployment
 This website is deployed using GitHub Pages by using the following method: 
