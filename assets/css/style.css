@@ -427,13 +427,13 @@ h1, h2 ,h3 {
     .category-front {    
     width: 90px;
     margin: 3px;
-    font-size: 50%;
+    font-size: 60%;
     }
 
     .category-back {    
     width: 90px;
     margin: 3px auto;
-    font-size: 50%;
+    font-size: 60%;
     }
 
     .card-description {
