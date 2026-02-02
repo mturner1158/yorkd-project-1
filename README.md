@@ -109,7 +109,7 @@ This user should expect to:
 7. Be able to make an account for a reviewer
 8. Be able to submit a review for a restaurant or bar 
 
-#### User 4: Restaurant Owner
+#### User 4: Establishment Owner
 This user should expect to: 
 
 9. Be able to make an account for an owner
@@ -181,7 +181,6 @@ The following languages are used in this project:
 
 * HTML
 * CSS
-* A small amount of Javascript (taken from a previous project and credited in the comments)
 
 The following frameworks are used in this project: 
 
@@ -194,11 +193,42 @@ The following frameworks are used in this project:
 This section outlines the key features on each page.
 
 ### Common Features
-Common features across all sites include the navigation bar and the footer. 
+Common features across all sites include the navigation bar and the footer. These common features meet the needs of all users of the site. 
+
+#### Navigation Bar
+* Featured on all pages, with consistent styling and positioning for ease of use. 
+* Responsive design depending on screen size (for phones and small tablets this condenses to the hambuger and a drop down)
+* The current page is shown by an underline of the page name for the main 4 pages
+
+<img src="assets/images/readme-navbar.png">
+
+#### Footer
+* Featured on all pages, with consistent styling and positioning for ease of use.
+* Contains the name of the site and link to popular social media channels 
+* Responsive design for all screen sizes
+
+<img src="assets/images/readme-footer.png">
 
 ### Home 
+The home page shows a clean view of a restaurant and text to set the tone of the rest of the site. Key features:
+
+* Eye-catching photo of a restaurant 
+* Heading to draw in a user
+* A summary to ensure people understand the purpose of the site
+
+<img src="assets/images/readme-home.png">
 
 ### Restaurants
+The restaurant page shows users four different restaurants to choose from with key information such as name, rating and vibe displayed, along with an interactive way to display more information. 
+
+* A header to catch the attention of users, along with a description
+* A card for each restaurant, with a clear name, rating and vibe 
+* Upon hovering on a card (or clicking if in dev tools or on a touch screen device), the card will rotate to display further information
+* A link to a drill through for the restaurant for users that want more information
+
+This page satisfies User 2 of the User Stories. 
+
+<img src="assets/images/readme-restaurants.png">
 
 #### Restaurant Specific Pages
 
@@ -217,10 +247,24 @@ Common features across all sites include the navigation bar and the footer.
 3. Sotanos page not loading style - mistyped filename not rendering as a html file but a markdown file instead
 
 ## Deployment
+This website is deployed using GitHub Pages by using the following method: 
+
+1. Open up the github repository
+2. Navigate to the Settings tab
+3. Select the pages option in the 'Code and Automation' section
+4. For the source choose 'deploy from branch'
+5. For branch, choose main
+6. After the webpage refreshes, the ribbon will say "Your site is live at  https://mturner1158.github.io/yorkd-project-1/"
 
 ## Code Used From External Sauces
-For the cards on the restaurant and bar pages, I used code from W3Schools which can be found [here](https://www.w3schools.com/howto/howto_css_flip_card.asp) to cause the responsive flipping. 
+The following code has been modified from sources:
+* For the cards on the restaurant and bar pages, I used code from W3Schools which can be found [here](https://www.w3schools.com/howto/howto_css_flip_card.asp) to cause the responsive flipping. 
+* Bootstrap provided source code for model, carousel and navbar before being modified to suit the needs of the site
+* Bootstrap grid has been used for the responsive design of the site
 
-## Credits
+## Credits & Disclaimer
 Favicon credits: Delicious icons created by Hilmy Abiyyu A. - Flaticon
+
+All reviews are AI generated and do not reflect actual opinions of any establishments used in this project.
+
 
