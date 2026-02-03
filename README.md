@@ -93,15 +93,15 @@ The following user stories have been considered:
 This user should expect to: 
 
 1. Quickly find a list of restaurants 
-2. Read reviews of a restaurat
+2. Read reviews of a restaurant
 3. View relavent tags and descriptions for a restaurant
 
 #### User 2: Bar Recommendations
 This user should expect to: 
 
-4. Quickly find a list of restaurants 
-5. Read reviews of a restaurat
-6. View relavent tags and descriptions for a restaurant
+4. Quickly find a list of bars 
+5. Read reviews of a bar
+6. View relavent tags and descriptions for a bar
 
 #### User 3: A reviewer
 This user should expect to: 
@@ -285,8 +285,28 @@ This satisfies User 4 in the User Stories.
 <img src="assets/images/readme-signup.png">
 
 ## Testing
+The following testing has been undertaken as part of this project: 
 
-* user story testing 
+### User Story Testing
+Each of the following user stories outlined at the begining of this document are covered here: 
+
+|User|User Story|Testing   |
+|:-----|:-------|:-------------|
+|User 1|Find a list of restaurants|By selecting the restaurant tab and  seeing the tiles displaying restaurants|
+|User 1|Read review of restaurant|By selecting a restaurant tile you can view further details|
+|User 1|View tags and descriptions for a restaurant|By selecting the tile you will see the tags and description for the restaurant or by hovering on the tile|
+|User 2|Find a list of bars|By selecting the bars tab and  seeing the tiles displaying bars|
+|User 2|View tags and descriptions for a bar|By selecting the tile you will see the tags and description for the restaurant or by hovering on the tile|
+|User 2|Read reviews for a bar|By selecting a bar tile you can view further details|
+|User 3|Be able to make an account for a reviewer|Select Sign Up tab and fill out details. Select the left hand radio to be a reviewer|
+|User 3|Submit a review for a bar or restaurant|From the restaurant tile, select the model button at the bottom to add a restaurant|
+|User 4|Be able to make an account for an owner|Select Sign Up tab and fill out details. Select the right hand radio to be an owner|
+|User 4|Be able to add a restaurant or bar|When signing up write this in the text area to be reviewed by the website owner|
+
+### Validation Tools
+
+
+
 * validators 
 * accessibility
 * browser specific testing 
