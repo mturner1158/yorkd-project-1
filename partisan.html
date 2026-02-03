@@ -138,7 +138,7 @@
                         <!-- map -->
                         <div class="col-12">
                             <!-- from google maps embed link -->
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.596969137937!2d-1.0925415227063051!3d53.95666607247253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879310711dc93bb%3A0xcc1e830c5c319732!2sPartisan!5e0!3m2!1sen!2suk!4v1770055806526!5m2!1sen!2suk" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe class="map-style" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2347.596969137937!2d-1.0925415227063051!3d53.95666607247253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879310711dc93bb%3A0xcc1e830c5c319732!2sPartisan!5e0!3m2!1sen!2suk!4v1770055806526!5m2!1sen!2suk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>
@@ -163,17 +163,17 @@
                     <!-- bootstrap modal to allow users to add their own reviews-->
                     <!-- Button trigger modal -->
                     <button type="button" class="btn modal-btn-style justify-content-center" data-bs-toggle="modal"
-                        data-bs-target="#ksr-review">
+                        data-bs-target="#p-review">
                         Share your review!
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="ksr-review" data-bs-backdrop="static" data-bs-keyboard="false"
+                    <div class="modal fade" id="p-review" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="ksr-review-label">Share your review!</h1>
+                                    <h1 class="modal-title fs-5" id="p-review-label">Share your review!</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
@@ -186,7 +186,7 @@
                                             </div>
                                             <div class="col-12">
                                                 <label for="review-choice" class="form-text">What establishment are you reviewing?</label>
-                                                <select class="form-select" aria-label="Default select example">
+                                                <select class="form-select" aria-label="review-choice">
                                                     <option selected>Open this select menu</option>
                                                     <option value="1">Restaurant</option>
                                                     <option value="2">Bar</option>
@@ -194,7 +194,7 @@
                                             </div>
                                             <div class="col-12 col-md-6">
                                                 <label for="review-rating" class="form-text">Rating:</label>
-                                                <select class="form-select" aria-label="Default select example">
+                                                <select class="form-select" aria-label="review-rating">
                                                     <option selected>Open this select menu</option>
                                                     <option value="1">1</option>
                                                     <option value="2">2</option>
@@ -236,7 +236,7 @@
                     <p>
                         <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
                         <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https:twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
                     </p>
                 </div>
