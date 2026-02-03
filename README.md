@@ -304,10 +304,26 @@ Each of the following user stories outlined at the begining of this document are
 |User 4|Be able to add a restaurant or bar|When signing up write this in the text area to be reviewed by the website owner|
 
 ### Validation Tools
+Using the Autofixer[Autofixer](https://autoprefixer.github.io/), I have ensured that my CSS is complient with all browser types. 
 
+Using the [CSS Validator](https://jigsaw.w3.org/css-validator/), I have 0 recorded CSS errors and 27 warnings due to external references the validator cannot check. 
 
+Using the [HTML Validator](https://validator.w3.org/), I received the following outputs.
 
-* validators 
+|Page|HTML Validator Output|
+|:-----|:-------|
+|Home|0 warnings or errors|
+|Restaurants|0 warnings or errors|
+|Khao San Road|1 warning|
+|Cut and Craft|1 warning|
+|Partisan|1 warning|
+|Everest Ghurka|1 warning|
+|Bars||
+|Brew York||
+|Sotanos||
+|Sign Up||
+|Success||
+
 * accessibility
 * browser specific testing 
 * dev tools testing 
