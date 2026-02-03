@@ -318,14 +318,15 @@ Using the [HTML Validator](https://validator.w3.org/), I received the following 
 |Cut and Craft|1 warning|
 |Partisan|1 warning|
 |Everest Ghurka|1 warning|
-|Bars||
-|Brew York||
-|Sotanos||
-|Sign Up||
-|Success||
+|Bars|0 warnings or errors|
+|Brew York|1 warning|
+|Sotanos|1 warning|
+|Sign Up|1 error|
+|Success|0 warnings or errors|
 
-* accessibility
-* browser specific testing 
+*error to fix is for attribute for lable on line 97 for radio of sign up
+
+* accessibility 
 * dev tools testing 
 
 ## Bugs
