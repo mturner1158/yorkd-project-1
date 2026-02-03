@@ -246,14 +246,41 @@ This satisfies User 1 and User 3 in the User Stories.
 <img src="assets/images/readme-restaurant-drillthrough.png">
 
 ### Bars 
+The bars page shows users two different bars to choose from with key information such as name, rating and vibe displayed, along with an interactive way to display more information. 
+
+* A header and description to draw in users 
+* A card for each bar, with a clear name, rating and vibe 
+* Upon hovering on a card (or clicking if in dev tools or on a touch screen device), the card will rotate to display further information
+* A link to a drill through for the restaurant for users that want more information
+
+This page satisfies User 2 and 3 of the User Stories. 
 
 <img src="assets/images/readme-bars.png">
 
 #### Bar Specific Pages
+The bar specific page shows users more information for the bar they selected from the previous page. This has a lot of detail including futher ratings, location, pitcures and reviews. 
+
+* A link to the previous bars page so users can return to the full bar list 
+* 6 categories that are consistent across all website pages
+* A carousel of images from the bar
+* A description of the bar
+* A map so users can find the bar
+* A set of reviews that have been submitted from users 
+* A model which allows a user to submit a review
+
+This satisfies User 2 and User 3 in the User Stories.
 
 <img src="assets/images/readme-bars-drillthrough.png">
 
 ### Sign Up
+The sign up page allows users to add their details to the site and make an account. At this stage only the functional HTML is working as this currently does not direct anywhere. 
+
+* Text, number and email inputs for personal details 
+* Radio buttons to outline if someone wants to review establishments or put their establishment on the site
+* A text area to submit the reason you are joining 
+* A sign up button to submit the details
+
+This satisfies User 4 in the User Stories. 
 
 <img src="assets/images/readme-signup.png">
 
