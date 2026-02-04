@@ -143,6 +143,7 @@ The site will have an easy to follow structure with a standardised navigation ba
 * A page showing all bars logged on the site 
 * A drill-through page for each restaurant with futher information 
 * A sign-up page for new users to register
+* A success page to confirm users have completed a form
 
 ### Wireframes
 Below are the wireframes for each page created in this website. 
@@ -324,8 +325,7 @@ Using the [HTML Validator](https://validator.w3.org/), I received the following 
 |Sign Up|0 warnings or errors|
 |Success|0 warnings or errors|
 
-* error to fix is for attribute for lable on line 97 for radio of sign up
-* add what the warnings are and disclaimer for other error
+The warning on drillthrough pages represents the use case of a section for the back button at the top of each page.
 
 * accessibility 
 * dev tools testing 
@@ -338,6 +338,8 @@ The following bugs occured during the design of this site.
 |#1|Flipping cards on restaurant and bar tab kept overlapping on small screens |Fixed by changing the height to an absolute px value using developer tools testing until the correct height was found|
 |#2|Card content spilling over container |Resized using media queries and dev tools until correct sizing was identified and implemented|
 |#3|Sotanos page not loading style |Mistyped filename not rendering as a html file but a markdown file instead|
+|#4|Model not opening|Unique IDs were not carried across so the modal would not launch. This was fixed by giving the modal on each page a unique ID|
+|#5| Modal form would not submit| The submit button was outside of the form element so this did not submit. This was fixed by removing the modal bottom element and adding the submit button into the form element in the modal body.|
 
 ## Deployment
 This website is deployed using GitHub Pages by using the following method: 
