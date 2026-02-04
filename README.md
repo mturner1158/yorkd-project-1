@@ -321,7 +321,7 @@ Using the [HTML Validator](https://validator.w3.org/), I received the following 
 |Bars|0 warnings or errors|
 |Brew York|1 warning|
 |Sotanos|1 warning|
-|Sign Up|1 error|
+|Sign Up|0 warnings or errors|
 |Success|0 warnings or errors|
 
 * error to fix is for attribute for lable on line 97 for radio of sign up
