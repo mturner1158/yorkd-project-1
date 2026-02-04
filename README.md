@@ -324,7 +324,8 @@ Using the [HTML Validator](https://validator.w3.org/), I received the following 
 |Sign Up|1 error|
 |Success|0 warnings or errors|
 
-*error to fix is for attribute for lable on line 97 for radio of sign up
+* error to fix is for attribute for lable on line 97 for radio of sign up
+* add what the warnings are and disclaimer for other error
 
 * accessibility 
 * dev tools testing 

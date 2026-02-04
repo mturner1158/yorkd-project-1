@@ -168,22 +168,26 @@
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="p-review" data-bs-backdrop="static" data-bs-keyboard="false"
+                    <div class="modal fade" id="cc-review" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
+                                <!-- gives modal title and a cross to close the modal -->
                                 <div class="modal-header">
-                                    <h1 class="modal-title fs-5" id="p-review-label">Share your review!</h1>
+                                    <h1 class="modal-title fs-5" id="cc-review-label">Share your review!</h1>
                                     <button type="button" class="btn-close" data-bs-dismiss="modal"
                                         aria-label="Close"></button>
                                 </div>
+                                <!-- form to submit your review and upon completion goes to the success page -->
                                 <div class="modal-body">
                                     <form action="success.html" id="add-review">
                                         <div class="row">
+                                            <!-- add your username -->
                                             <div class="col-12">
                                                 <label for="uname" class="form-text">Username:</label>
                                                 <input type="text" name="uname" id="uname" class="form-box">
                                             </div>
+                                            <!-- choose establishment -->
                                             <div class="col-12">
                                                 <label for="review-choice" class="form-text">What establishment are you reviewing?</label>
                                                 <select class="form-select" id="review-choice">
@@ -192,6 +196,7 @@
                                                     <option value="2">Bar</option>
                                                 </select>
                                             </div>
+                                            <!-- choose your rating -->
                                             <div class="col-12 col-md-6">
                                                 <label for="review-rating" class="form-text">Rating:</label>
                                                 <select class="form-select" id="review-rating">
@@ -203,16 +208,18 @@
                                                     <option value="5">5</option>
                                                 </select>
                                             </div>
+                                            <!-- add comments -->
                                             <div class="col-12">
                                                 <label for="reasoning" class="form-text">Tell us what you think!</label> <br>
                                                 <textarea name="reasoning" id="reasoning" class="form-control"
                                                     rows="7"></textarea>
                                             </div>
+                                            <!-- submit the form -->
+                                            <div class="col-12">
+                                                <button type="submit" class="btn modal-btn-style">Submit your review</button>
+                                            </div>
                                         </div>
                                     </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <a href="success.html" class="modal-submit">Submit</a>
                                 </div>
                             </div>
                         </div>
