@@ -1,9 +1,7 @@
 # York'd 
 A website for reviewing restaurants and bars in York.
 
-IMAGE
-
-[Live website](https://bbc.com)
+[Click here to view the live version of my website](hhttps://mturner1158.github.io/yorkd-project-1/)
 
 ## Table of Contents
 
@@ -284,6 +282,8 @@ The sign up page allows users to add their details to the site and make an accou
 This satisfies User 4 in the User Stories. 
 
 <img src="assets/images/readme-signup.png">
+
+I added a success page upon completing the sign up form which gives user a better experience by confirming they have completed the form properly. 
 
 ## Testing
 The following testing has been undertaken as part of this project: 
