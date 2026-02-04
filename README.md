@@ -1,7 +1,7 @@
 # York'd 
 A website for reviewing restaurants and bars in York.
 
-[Click here to view the live version of my website](hhttps://mturner1158.github.io/yorkd-project-1/)
+[Click here to view the live version of my website](https://mturner1158.github.io/yorkd-project-1/)
 
 ## Table of Contents
 
@@ -67,7 +67,6 @@ Site managers will have the following goals:
 
 * Grow a community of reviewers 
 * Create a community of establishment owners 
-* An easy way to 
 
 ## User Experience
 This section shows the considerations for each type of user that would use the website and the exeriences they would have. 
@@ -128,12 +127,12 @@ The colour theme of this site is as follows:
 |Celadon|#699E63 |Secondary Colour|
 |Coca Pecan|#967B5D|Secondary Background Colour|
 
-There are two fonts used through these sites:
+There are two fonts used through theis site:
 
 1. Inter is the primary font used for main bodies of text. 
 2. Lora is the secondary font used to headers and important bits of text. 
 
-The site will have an easy to follow structure with a standardised navigation bar across all pages to allow users to find the information they need. This webpage consists of 6 types of webpage:
+The site will have an easy to follow structure with a standardised navigation bar across all pages to allow users to find the information they need. This webpage consists of 7 types of webpage:
 
 * A home page that explains the purpose of the page and a key restaurant 
 * A page showing all restaurants logged on the site
@@ -144,7 +143,7 @@ The site will have an easy to follow structure with a standardised navigation ba
 * A success page to confirm users have completed a form
 
 ### Wireframes
-Below are the wireframes for each page created in this website. 
+Below are the wireframes for each page created in this website across three different screen sizes. 
 
 #### Home
 
@@ -183,7 +182,7 @@ The following languages are used in this project:
 
 The following frameworks are used in this project: 
 
-* Bootstrap v5.2.8
+* Bootstrap v5.3.8
 * Github
 * Google Fonts
 * Font Awesome 
@@ -305,7 +304,7 @@ Each of the following user stories outlined at the begining of this document are
 |User 4|Be able to add a restaurant or bar|When signing up write this in the text area to be reviewed by the website owner|
 
 ### Validation Tools
-Using the Autofixer[Autofixer](https://autoprefixer.github.io/), I have ensured that my CSS is complient with all browser types. 
+Using the [Autofixer](https://autoprefixer.github.io/), I have ensured that my CSS is complient with all browser types. 
 
 Using the [CSS Validator](https://jigsaw.w3.org/css-validator/), I have 0 recorded CSS errors and 27 warnings due to external references the validator cannot check. 
 
@@ -325,10 +324,10 @@ Using the [HTML Validator](https://validator.w3.org/), I received the following 
 |Sign Up|0 warnings or errors|
 |Success|0 warnings or errors|
 
-The warning on drillthrough pages represents the use case of a section for the back button at the top of each page.
+The warning on drillthrough pages represents the use case of a section for the back button at the top of each page wihtout adding a header element.
 
-* accessibility 
-* dev tools testing 
+Using this [Constrast Checker](https://coolors.co/contrast-checker/234f1e-f1e9d2), my primary colour and primary background colour received a contrast rating of 7.81, and all images used on the site have an alternative text attribute. 
+
 
 ## Bugs
 The following bugs occured during the design of this site. 
