@@ -39,7 +39,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0 me-auto">
                     <li class="nav-item nav-btn">
-                        <a class="nav-link"  href="index.html">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item nav-btn">
                         <a class="nav-link" href="restaurants.html">Restaurants</a>
@@ -49,7 +49,8 @@
                     </li>
                 </ul>
                 <div class="nav-item nav-btn ms-auto">
-                    <a class="nav-link active" href="signup.html" aria-current="page">Sign Up <i class="fa-solid fa-user"></i></a>
+                    <a class="nav-link active" href="signup.html" aria-current="page">Sign Up <i
+                            class="fa-solid fa-user"></i></a>
                 </div>
             </div>
         </div>
@@ -60,59 +61,64 @@
         <!-- sign up introduction -->
         <section id="signup-intro" class="section container">
             <h1>Let us know your opinion!</h1>
-            <p>Create an account to save your favourite spots, write reviews, and join the York’s community. Restaurant and bar owners can also sign up to add their establishment, manage details, and connect directly with customers.</p>
+            <p>Create an account to save your favourite spots, write reviews, and join the York’s community. Restaurant
+                and bar owners can also sign up to add their establishment, manage details, and connect directly with
+                customers.</p>
         </section>
         <!-- sign up form -->
         <section id="signup" class="col-md-8 container">
             <div class="row justify-content-center">
                 <h2 class="text-center">Sign Up Now!</h2>
-            <form id="signup-form" action="success.html" method="GET">
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <label for="fname" class="form-text">First Name:</label>
-                        <input type="text" name="fname" id="fname" class="form-box">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <label for="lname" class="form-text">Last Name:</label>
-                        <input type="text" name="lname" id="lname" class="form-box">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <label for="phone-number" class="form-text">Phone Number:</label>
-                        <input type="number" name="phone-number" id="phone-number" class="form-box">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <label for="email" class="form-text">Email Address:</label>
-                        <input type="email" name="email" id="email" class="form-box">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <label for="uname" class="form-text">Username Name:</label>
-                        <input type="text" name="uname" id="uname" class="form-box">
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <label for="pword" class="form-text">Password:</label>
-                        <input type="password" name="pword" id="pword" class="form-box">
-                    </div>
-                    <div id="signup-radio" class="col-12">
+                <form id="signup-form" action="success.html" method="GET">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <label for="fname" class="form-text">First Name:</label>
+                            <input type="text" name="fname" id="fname" class="form-box">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="lname" class="form-text">Last Name:</label>
+                            <input type="text" name="lname" id="lname" class="form-box">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="phone-number" class="form-text">Phone Number:</label>
+                            <input type="number" name="phone-number" id="phone-number" class="form-box">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="email" class="form-text">Email Address:</label>
+                            <input type="email" name="email" id="email" class="form-box">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="uname" class="form-text">Username Name:</label>
+                            <input type="text" name="uname" id="uname" class="form-box">
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <label for="pword" class="form-text">Password:</label>
+                            <input type="password" name="pword" id="pword" class="form-box">
+                        </div>
+                        <div id="signup-radio" class="col-12">
                             <p class="radio-text">What are you signing up for?</p>
                             <div class="form-check-inline">
-                                <input type="radio" id="reviewer" name="user-type" value="reviewer" class="form-check-input">
-                                <label for="reviewer"  class="form-check-label">I want to review my favourite places</label>
+                                <input type="radio" id="reviewer" name="user-type" value="reviewer"
+                                    class="form-check-input">
+                                <label for="reviewer" class="form-check-label">I want to review my favourite
+                                    places</label>
                             </div>
                             <div class="form-check-inline">
-                                <input type="radio" id="owner" name="user-type" value="owner"  class="form-check-input">
-                                <label for="owner" class="form-check-label">I want to put my establishment for review</label>
+                                <input type="radio" id="owner" name="user-type" value="owner" class="form-check-input">
+                                <label for="owner" class="form-check-label">I want to put my establishment for
+                                    review</label>
                             </div>
+                        </div>
+                        <div class="col-12">
+                            <label for="reasoning" class="form-text">Why do you want to join?</label> <br>
+                            <textarea name="reasoning" id="reasoning" class="form-box" rows="10" cols="50"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="signup-btn-style">Sign Up!</button>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        <label for="reasoning" class="form-text">Why do you want to join?</label> <br>
-                        <textarea name="reasoning" id="reasoning" class="form-box" rows="10" cols="50"></textarea>
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="signup-btn-style">Sign Up!</button>
-                    </div>
-                </div>
-            </form>
-        </div>
+                </form>
+            </div>
         </section>
     </main>
 
