@@ -127,7 +127,7 @@ The colour theme of this site is as follows:
 |Celadon|#699E63 |Secondary Colour|
 |Coca Pecan|#967B5D|Secondary Background Colour|
 
-There are two fonts used through theis site:
+There are two fonts used through this site:
 
 1. Inter is the primary font used for main bodies of text. 
 2. Lora is the secondary font used to headers and important bits of text. 
