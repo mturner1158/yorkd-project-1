@@ -91,7 +91,7 @@ This user should expect to:
 
 1. Quickly find a list of restaurants 
 2. Read reviews of a restaurant
-3. View relavent tags and descriptions for a restaurant
+3. View relevant tags and descriptions for a restaurant
 
 #### User 2: Bar Recommendations
 This user should expect to: 
@@ -194,14 +194,14 @@ This section outlines the key features on each page.
 Common features across all sites include the navigation bar and the footer. These common features meet the needs of all users of the site. 
 
 #### Navigation Bar
-* Featured on all pages, with consistent styling and positioning for ease of use. 
+* Featured on all pages, with consistent styling and positioning for ease of use
 * Responsive design depending on screen size (for phones and small tablets this condenses to the hambuger and a drop down)
 * The current page is shown by an underline of the page name for the main 4 pages
 
 <img src="assets/images/readme-navbar.png">
 
 #### Footer
-* Featured on all pages, with consistent styling and positioning for ease of use.
+* Featured on all pages, with consistent styling and positioning for ease of use
 * Contains the name of the site and link to popular social media channels 
 * Responsive design for all screen sizes
 
