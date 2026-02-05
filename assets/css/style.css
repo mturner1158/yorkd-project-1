@@ -38,12 +38,14 @@ h1, h2 ,h3 {
 
 .btn-style {
     border: 2px solid var(--primary-background-colour);
+    border-radius: 5px;
     background-color: var(--primary-background-colour);
     color: var(--primary-colour);
 }
 
 .btn-style:hover {
     border: 2px solid var(--primary-colour);
+    border-radius: 5px;
     background-color: var(--primary-colour);
     color: var(--primary-background-colour);
 }
@@ -385,12 +387,14 @@ h1, h2 ,h3 {
 .signup-btn-style {
     border: 2px solid var(--primary-colour);
     background-color: var(--primary-colour);
+    border-radius: 5px;
     color: var(--primary-background-colour);
 }
 
 .signup-btn-style:hover {
     border: 2px solid var(--secondary-colour);
     background-color: var(--secondary-colour);
+    border-radius: 5px;
     color: var(--primary-background-colour);
 }
 
