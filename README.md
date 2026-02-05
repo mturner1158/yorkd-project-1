@@ -53,7 +53,7 @@ A website for reviewing restaurants and bars in York.
 [Credits](#credits)
 
 ## Project Goals
-This web application allows the user to discover restaurants and bars in York and add their own comments and ratings.
+This web application allows the user to discover restaurants and bars in York and add their own comments and ratings. Each restaurant and bar has a profile page which allows users to see collated fields such as vibe, rating, dietry requirements and service in one location rather than looking across multiple websites. 
 
 ### User Goals
 Users have the following goals: 
